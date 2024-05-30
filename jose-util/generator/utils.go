@@ -21,7 +21,7 @@ import (
 	"encoding/pem"
 	"errors"
 
-	"github.com/go-jose/go-jose/v4"
+	"github.com/simontol/go-jose/v4"
 )
 
 func LoadJSONWebKey(json []byte, pub bool) (*jose.JSONWebKey, error) {

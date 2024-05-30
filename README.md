@@ -1,9 +1,9 @@
 # Go JOSE
 
-[![godoc](https://pkg.go.dev/badge/github.com/go-jose/go-jose/v4.svg)](https://pkg.go.dev/github.com/go-jose/go-jose/v4)
-[![godoc](https://pkg.go.dev/badge/github.com/go-jose/go-jose/v4/jwt.svg)](https://pkg.go.dev/github.com/go-jose/go-jose/v4/jwt)
+[![godoc](https://pkg.go.dev/badge/github.com/simontol/go-jose/v4.svg)](https://pkg.go.dev/github.com/simontol/go-jose/v4)
+[![godoc](https://pkg.go.dev/badge/github.com/simontol/go-jose/v4/jwt.svg)](https://pkg.go.dev/github.com/simontol/go-jose/v4/jwt)
 [![license](https://img.shields.io/badge/license-apache_2.0-blue.svg?style=flat)](https://raw.githubusercontent.com/go-jose/go-jose/master/LICENSE)
-[![test](https://img.shields.io/github/checks-status/go-jose/go-jose/v4)](https://github.com/go-jose/go-jose/actions)
+[![test](https://img.shields.io/github/checks-status/go-jose/go-jose/v4)](https://github.com/simontol/go-jose/actions)
 
 Package jose aims to provide an implementation of the Javascript Object Signing
 and Encryption set of standards. This includes support for JSON Web Encryption,
@@ -26,7 +26,7 @@ The implementation follows the
 Tables of supported algorithms are shown below. The library supports both
 the compact and JWS/JWE JSON Serialization formats, and has optional support for
 multiple recipients. It also comes with a small command-line utility
-([`jose-util`](https://pkg.go.dev/github.com/go-jose/go-jose/jose-util))
+([`jose-util`](https://pkg.go.dev/github.com/simontol/go-jose/jose-util))
 for dealing with JOSE messages in a shell.
 
 **Note**: We use a forked version of the `encoding/json` package from the Go
@@ -37,11 +37,11 @@ libraries in other languages.
 
 ### Versions
 
-[Version 4](https://github.com/go-jose/go-jose)
-([branch](https://github.com/go-jose/go-jose/tree/main),
-[doc](https://pkg.go.dev/github.com/go-jose/go-jose/v4), [releases](https://github.com/go-jose/go-jose/releases)) is the current stable version:
+[Version 4](https://github.com/simontol/go-jose)
+([branch](https://github.com/simontol/go-jose/tree/main),
+[doc](https://pkg.go.dev/github.com/simontol/go-jose/v4), [releases](https://github.com/simontol/go-jose/releases)) is the current stable version:
 
-    import "github.com/go-jose/go-jose/v4"
+    import "github.com/simontol/go-jose/v4"
 
 The old [square/go-jose](https://github.com/square/go-jose) repo contains the prior v1 and v2 versions, which
 are still useable but not actively developed anymore.
@@ -104,11 +104,11 @@ allows attaching a key id.
 
 ## Examples
 
-[![godoc](https://pkg.go.dev/badge/github.com/go-jose/go-jose/v4.svg)](https://pkg.go.dev/github.com/go-jose/go-jose/v4)
-[![godoc](https://pkg.go.dev/badge/github.com/go-jose/go-jose/v4/jwt.svg)](https://pkg.go.dev/github.com/go-jose/go-jose/v4/jwt)
+[![godoc](https://pkg.go.dev/badge/github.com/simontol/go-jose/v4.svg)](https://pkg.go.dev/github.com/simontol/go-jose/v4)
+[![godoc](https://pkg.go.dev/badge/github.com/simontol/go-jose/v4/jwt.svg)](https://pkg.go.dev/github.com/simontol/go-jose/v4/jwt)
 
 Examples can be found in the Godoc
 reference for this package. The
-[`jose-util`](https://github.com/go-jose/go-jose/tree/v4/jose-util)
+[`jose-util`](https://github.com/simontol/go-jose/tree/v4/jose-util)
 subdirectory also contains a small command-line utility which might be useful
 as an example as well.

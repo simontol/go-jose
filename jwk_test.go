@@ -32,7 +32,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-jose/go-jose/v4/json"
+	"github.com/simontol/go-jose/v4/json"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"
@@ -1064,7 +1064,7 @@ func TestJWKBufferSizeCheck(t *testing.T) {
 	}
 	jwk.Valid() // true
 	// panic: go-jose/go-jose: invalid call to newFixedSizeBuffer (len(data) > length)
-	// github.com/go-jose/go-jose.newFixedSizeBuffer(0xc420014557, 0x41, 0x41, 0x20, 0x0)
+	// github.com/simontol/go-jose.newFixedSizeBuffer(0xc420014557, 0x41, 0x41, 0x20, 0x0)
 	jwk.Thumbprint(crypto.SHA256)
 }
 
